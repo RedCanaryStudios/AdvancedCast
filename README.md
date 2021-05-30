@@ -38,5 +38,5 @@ Very self explanatory. Provide the WorldRoot:RayCast() normally. But in this cas
 This raycast will return the Xth object, rather than the first. Suppose you want a gun that shoots through 3 parts maximum, this is the function you want, as you can specify it to get the 3rd object rather than just the first. This also returns a 2nd parameter of all the parts it went through.
 
 ```lua
-local result, array = AllPartsOnray(orign, direction, RP, 3)
+local result, array = AllPartsOnray(orign, direction, 3, RP)
 ```
