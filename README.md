@@ -8,7 +8,7 @@ Usage: Provide a callback to filter out objects. Rather than having a table of o
 ```lua
 local result = RayCastWithAdvancedFilter(--[[origin]], --[[direction]], function(part)
   return part.Name == "BLUE" -- will ignore parts named blue
-end --[[can be anonymous, or an existing table]])
+end --[[can be anonymous, or an existing function]])
 ```
 
 This can be extended into complex functions.
